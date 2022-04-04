@@ -141,7 +141,50 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  
   <ItemGroup>
+    <ClInclude Include="atomMC.h" />
+    <ClInclude Include="auxfuncMC.h" />
+    <ClInclude Include="energyMC.h" />
+    <ClInclude Include="ensembleMC.h" />
+    <ClInclude Include="ljatomMC.h" />
+    <ClInclude Include="ljenergyMC.h" />
+    <ClInclude Include="mc.h" />
+    <ClInclude Include="nveMC.h" />
+    <ClInclude Include="simMC.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="atomMC.cpp" />
+    <ClCompile Include="auxfuncMC.cpp" />
+    <ClCompile Include="energyMC.cpp" />
+    <ClCompile Include="ensembleMC.cpp" />
+    <ClCompile Include="ljatomMC.cpp" />
+    <ClCompile Include="ljenergyMC.cpp" />
+    <ClCompile Include="mainMC.cpp" />
+    <ClCompile Include="mc.cpp" />
+    <ClCompile Include="nveMC.cpp" />
+    <ClCompile Include="simMC.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mc.dat" >
+	<DeploymentContent>true</DeploymentContent>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+    <Content Include="NVEfileMC.dat">
+	<DeploymentContent>true</DeploymentContent>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+    <Content Include="paramLJ.dat">
+	<DeploymentContent>true</DeploymentContent>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+    <Content Include="simMC.dat">
+	<DeploymentContent>true</DeploymentContent>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WS_FTP.LOG" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

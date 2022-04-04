@@ -14,4 +14,84 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="atomMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="auxfuncMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="energyMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ensembleMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ljatomMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ljenergyMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nveMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="auxfuncMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="energyMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ensembleMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ljatomMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ljenergyMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nveMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="atomMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mc.dat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="NVEfileMC.dat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="paramLJ.dat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="simMC.dat">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="WS_FTP.LOG">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
