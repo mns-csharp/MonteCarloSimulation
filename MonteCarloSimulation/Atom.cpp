@@ -3,7 +3,7 @@
 // File containing the method bodies to implement the
 // atom class.
  
-#include "atomMC.h"
+#include "Atom.h"
 
 // Method:  setType
 // Usage:   setType(int atomType);

@@ -141,47 +141,46 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  
   <ItemGroup>
-    <ClInclude Include="atomMC.h" />
+    <ClInclude Include="Atom.h" />
     <ClInclude Include="auxfuncMC.h" />
-    <ClInclude Include="energyMC.h" />
-    <ClInclude Include="ensembleMC.h" />
-    <ClInclude Include="ljatomMC.h" />
-    <ClInclude Include="ljenergyMC.h" />
-    <ClInclude Include="mc.h" />
-    <ClInclude Include="nveMC.h" />
-    <ClInclude Include="simMC.h" />
+    <ClInclude Include="Energy.h" />
+    <ClInclude Include="Ensemble.h" />
+    <ClInclude Include="LJatom.h" />
+    <ClInclude Include="LJenergy.h" />
+    <ClInclude Include="MonteCarlo.h" />
+    <ClInclude Include="NVEensemble.h" />
+    <ClInclude Include="Simulation.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="atomMC.cpp" />
+    <ClCompile Include="Atom.cpp" />
     <ClCompile Include="auxfuncMC.cpp" />
-    <ClCompile Include="energyMC.cpp" />
-    <ClCompile Include="ensembleMC.cpp" />
-    <ClCompile Include="ljatomMC.cpp" />
-    <ClCompile Include="ljenergyMC.cpp" />
+    <ClCompile Include="Energy.cpp" />
+    <ClCompile Include="Ensamble.cpp" />
+    <ClCompile Include="LJatom.cpp" />
+    <ClCompile Include="LJenergy.cpp" />
     <ClCompile Include="mainMC.cpp" />
-    <ClCompile Include="mc.cpp" />
-    <ClCompile Include="nveMC.cpp" />
-    <ClCompile Include="simMC.cpp" />
+    <ClCompile Include="MonteCarlo.cpp" />
+    <ClCompile Include="NVEensemble.cpp" />
+    <ClCompile Include="Simulation.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="mc.dat" >
-	<DeploymentContent>true</DeploymentContent>
+    <Content Include="mc.dat">
+      <DeploymentContent>true</DeploymentContent>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
+    </Content>
     <Content Include="NVEfileMC.dat">
-	<DeploymentContent>true</DeploymentContent>
+      <DeploymentContent>true</DeploymentContent>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
+    </Content>
     <Content Include="paramLJ.dat">
-	<DeploymentContent>true</DeploymentContent>
+      <DeploymentContent>true</DeploymentContent>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
+    </Content>
     <Content Include="simMC.dat">
-	<DeploymentContent>true</DeploymentContent>
+      <DeploymentContent>true</DeploymentContent>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	  </Content>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="WS_FTP.LOG" />

@@ -10,7 +10,7 @@
 #include <iostream>
 #include <fstream>
 #include <math.h>
-#include "atomMC.h"
+#include "Atom.h"
 
 class LJatom : public Atom {
   private:

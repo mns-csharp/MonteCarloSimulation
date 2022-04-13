@@ -11,9 +11,9 @@
 #include <iostream>
 #include <math.h>
 
-#include "nveMC.h"
-#include "ensembleMC.h"
-#include "ljatomMC.h"
+#include "NVEensemble.h"
+#include "Ensemble.h"
+#include "LJatom.h"
 
 class MonteCarlo{
   private:

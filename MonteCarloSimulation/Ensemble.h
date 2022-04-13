@@ -9,8 +9,8 @@
 #ifndef _ensembleMC_h
 #define _ensembleMC_h
 
-#include "atomMC.h"
-#include "energyMC.h"
+#include "Atom.h"
+#include "Energy.h"
 
 // Class: Ensemble
 // ---------------

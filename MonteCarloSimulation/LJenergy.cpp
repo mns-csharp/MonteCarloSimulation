@@ -3,7 +3,7 @@
 // File containing functions to implement the LJenergy
 // class.
  
-#include "ljenergyMC.h"
+#include "LJenergy.h"
 
 
 // Method: setEnergy

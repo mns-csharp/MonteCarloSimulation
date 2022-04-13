@@ -4,7 +4,7 @@
 // which defines all methods and data for a Molecular Simulation,
 // using approaches such as Molecular Dynamics, Monte Carlo etc.
 
-#include "simMC.h"
+#include "Simulation.h"
 
 // Method:  readSimParameters
 // Usage:   readSimParameters();

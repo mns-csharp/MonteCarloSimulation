@@ -4,7 +4,7 @@
 // Energy class.
  
 
-#include "energyMC.h"
+#include "Energy.h"
  
 // constructor
 // Method: Energy  

@@ -12,7 +12,7 @@
 
 #include <iostream>
 #include <math.h>
-#include "atomMC.h"
+#include "Atom.h"
 
 class Energy 
 {

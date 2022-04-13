@@ -10,7 +10,7 @@
 #include <fstream>
 #include <iostream>
 
-#include "mc.h"
+#include "MonteCarlo.h"
 
 class Simulation{
   private:

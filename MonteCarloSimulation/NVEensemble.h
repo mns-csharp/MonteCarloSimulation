@@ -6,10 +6,10 @@
 #ifndef _nveMC_h
 #define _nveMC_h
 
-#include "ljatomMC.h"
+#include "LJatom.h"
 #include "auxfuncMC.h"
-#include "ljenergyMC.h"
-#include "ensembleMC.h"
+#include "LJenergy.h"
+#include "Ensemble.h"
 
 class NVEensemble : public Ensemble
 {

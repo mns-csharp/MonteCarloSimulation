@@ -3,7 +3,7 @@
 // File containing the functions to implement the
 // LJatom class.
 
-#include "ljatomMC.h"
+#include "LJatom.h"
 
 // Methods:  setSigma and setEpsilon
 // Usage:    setSigma(atomicSigma);  (or)

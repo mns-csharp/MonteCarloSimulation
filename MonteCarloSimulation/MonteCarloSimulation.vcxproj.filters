@@ -15,31 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="atomMC.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="auxfuncMC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="energyMC.h">
+    <ClInclude Include="MonteCarlo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ensembleMC.h">
+    <ClInclude Include="NVEensemble.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ljatomMC.h">
+    <ClInclude Include="Atom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ljenergyMC.h">
+    <ClInclude Include="Energy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mc.h">
+    <ClInclude Include="Simulation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="nveMC.h">
+    <ClInclude Include="LJenergy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="simMC.h">
+    <ClInclude Include="LJatom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ensemble.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,51 +47,32 @@
     <ClCompile Include="auxfuncMC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="energyMC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ensembleMC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ljatomMC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ljenergyMC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="mainMC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mc.cpp">
+    <ClCompile Include="Atom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="nveMC.cpp">
+    <ClCompile Include="Energy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="simMC.cpp">
+    <ClCompile Include="Ensamble.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="atomMC.cpp">
+    <ClCompile Include="LJatom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="mc.dat">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="NVEfileMC.dat">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="paramLJ.dat">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="simMC.dat">
-      <Filter>Resource Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="WS_FTP.LOG">
-      <Filter>Resource Files</Filter>
-    </Text>
+    <ClCompile Include="LJenergy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonteCarlo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NVEensemble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

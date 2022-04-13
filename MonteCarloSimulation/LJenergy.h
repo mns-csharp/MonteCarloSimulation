@@ -11,7 +11,7 @@
 #include <iostream>
 #include <math.h>
 
-#include "energyMC.h"
+#include "Energy.h"
 #include "auxfuncMC.h"
 
 class LJenergy : public Energy 

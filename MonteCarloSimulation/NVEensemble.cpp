@@ -6,7 +6,7 @@
 #include <iostream>
 #include <math.h>
 #include <string.h>
-#include "nveMC.h"
+#include "NVEensemble.h"
 
 // Method: getEnergyLRC
 // Usage: n = getEnergyLRC();

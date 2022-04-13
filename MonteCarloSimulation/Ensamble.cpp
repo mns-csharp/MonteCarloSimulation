@@ -6,7 +6,7 @@
 #include <iostream>
 #include <fstream>
 #include <math.h>
-#include "ensembleMC.h"
+#include "Ensemble.h"
 	
 //setMethods
 // ----------

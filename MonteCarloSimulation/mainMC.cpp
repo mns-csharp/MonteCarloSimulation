@@ -1,4 +1,4 @@
-#include "simMC.h"
+#include "Simulation.h"
 #include <iostream>
 int main()
 {

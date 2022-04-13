@@ -1,4 +1,4 @@
-#include "mc.h"
+#include "MonteCarlo.h"
 
 // File:  mc.cpp
 // Class: MonteCarlo
